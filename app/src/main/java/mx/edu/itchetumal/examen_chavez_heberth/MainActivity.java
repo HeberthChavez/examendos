@@ -27,9 +27,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout layoutP = (LinearLayout) findViewById(R.id.layout_principal);
         Lienzo areaDibujo = new Lienzo(this);
         layoutP.addView(areaDibujo);
-
-
-    }
+            }
 
     private int contador(){
         contador--;
